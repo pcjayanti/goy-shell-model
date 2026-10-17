@@ -2,7 +2,8 @@
 
 A C++17 rewrite of the simulation from *Study of fluid turbulence using the GOY
 shell model and semi-analytical modelling of nonlinear interactions*
-(IIT Madras, 2016), together with the original C for reference.
+(IIT Madras, 2016), together with the original C for reference. 
+The thesis is not publicly hosted; available on request.
 
 The model reduces the spectral Navier-Stokes equations to 29 geometrically
 spaced shells in wavenumber space, retaining only local nonlinear couplings.
