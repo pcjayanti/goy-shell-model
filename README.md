@@ -115,7 +115,7 @@ the read runs off the start of the array. They are now `(i >= 1)` and
 
 Measured on the same step count (5e7 steps, 29 shells): on an Apple M-series
 laptop the C version runs at 2.5M steps/s and the C++ version at 5.4M steps/s —
-a 2.1x speedup, entirely from removing `pow` and the per-shell branches from the
+a 2.1x speedup, from removing `pow` and the per-shell branches from the
 inner loop. No SIMD intrinsics and no threading within a run.
 
 ## The open question from the thesis
