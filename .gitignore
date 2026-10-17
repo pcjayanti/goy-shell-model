@@ -1,0 +1,11 @@
+build/
+runs/
+.venv/
+__pycache__/
+.DS_Store
+figures_c/
+goy_c
+*.o
+*.dat
+*_log.txt
+energyspectrum
